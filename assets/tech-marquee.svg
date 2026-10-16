@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="56" viewBox="0 0 1000 56" role="img" aria-label="Tech stack: PHP, Laravel, JavaScript, Vue.js, React.js, Next.js, Python, Express.js">
+  <defs>
+    <style>
+      .t { font: 600 18px 'Fira Code', 'Courier New', monospace; fill: #00D4FF; }
+      .d { fill: #7B61FF; }
+      .row { animation: scroll 24s linear infinite; }
+      @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-880px); } }
+    </style>
+    <linearGradient id="fadeL" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fadeR" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="56" rx="10" fill="#0d1117"/>
+  <g class="row">
+    <g id="set">
+      <text class="t" x="20" y="35">PHP</text><circle class="d" cx="75" cy="29" r="3"/>
+      <text class="t" x="95" y="35">Laravel</text><circle class="d" cx="180" cy="29" r="3"/>
+      <text class="t" x="200" y="35">JavaScript</text><circle class="d" cx="305" cy="29" r="3"/>
+      <text class="t" x="325" y="35">Vue.js</text><circle class="d" cx="400" cy="29" r="3"/>
+      <text class="t" x="420" y="35">React.js</text><circle class="d" cx="505" cy="29" r="3"/>
+      <text class="t" x="525" y="35">Next.js</text><circle class="d" cx="610" cy="29" r="3"/>
+      <text class="t" x="630" y="35">Python</text><circle class="d" cx="715" cy="29" r="3"/>
+      <text class="t" x="735" y="35">Express.js</text><circle class="d" cx="850" cy="29" r="3"/>
+    </g>
+    <use href="#set" x="880"/>
+    <use href="#set" x="1760"/>
+  </g>
+  <rect width="60" height="56" fill="url(#fadeL)"/>
+  <rect x="940" width="60" height="56" fill="url(#fadeR)"/>
+</svg>
